@@ -17,8 +17,8 @@ const Filter: React.FC<FilterProps> = ({ category, setCategory }) => {
       <div className="filter-header">Filter by Category</div>
       <select className="filter-select" value={category} onChange={handleChange}>
         <option value="all">All Categories</option>
-        <option value="men's clothing">Men's Clothing</option>
-        <option value="women's clothing">Women's Clothing</option>
+        <option value="men's clothing">Men&rsquo;s Clothing</option>
+        <option value="women's clothing">Women&rsquo;s Clothing</option>
         <option value="electronics">Electronics</option>
         <option value="jewelery">Jewelery</option>
       </select>
